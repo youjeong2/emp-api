@@ -1,0 +1,71 @@
+2020-10-12 01:11:26.235 17430 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: OS version: Darwin 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64
+2020-10-12 01:11:26.237 17430 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: Host application: Visual Studio Code(1.49.3)
+2020-10-12 01:11:26.237 17430 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.6.48.0
+2020-10-12 01:12:24.977 17430 -1     ERROR [VSCPWRTOOLS: 2020.6.48.0]: An exception occurred
+Access denied for user 'bitai'@'localhost' (using password: YES)
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 458
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 821
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.MySqlServerConnection.Open() in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 210
+	   at ApexSQL.VSC.Core.Connections.Connect(ConnectionInfo connectionInfo) in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\Connections.cs:line 130
+
+2020-10-12 01:14:03.817 17430 -1     ERROR [VSCPWRTOOLS: 2020.6.48.0]: An exception occurred
+Access denied for user 'bitai'@'localhost' (using password: YES)
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 458
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 821
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.MySqlServerConnection.Open() in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 210
+	   at ApexSQL.VSC.Core.Connections.Connect(ConnectionInfo connectionInfo) in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\Connections.cs:line 130
+
+2020-10-12 01:25:29.291 17430 -1     ERROR [VSCPWRTOOLS: 2020.6.48.0]: An exception occurred
+Access denied for user 'bitai'@'localhost' (using password: YES)
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 458
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 821
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.MySqlServerConnection.Open() in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 210
+	   at ApexSQL.VSC.Core.Connections.Connect(ConnectionInfo connectionInfo) in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\Connections.cs:line 130
+
+2020-10-12 01:27:39.819 17430 -1     ERROR [VSCPWRTOOLS: 2020.6.48.0]: An exception occurred
+Access denied for user 'bitai'@'localhost' (using password: YES)
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 458
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 821
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.MySqlServerConnection.Open() in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 210
+	   at ApexSQL.VSC.Core.Connections.Connect(ConnectionInfo connectionInfo) in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\Connections.cs:line 130
+
+2020-10-12 01:28:47.939 17430 -1     ERROR [VSCPWRTOOLS: 2020.6.48.0]: An exception occurred
+Unable to connect to any of the specified MySQL hosts.
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 474
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+	   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 821
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 399
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.MySqlServerConnection.Open() in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 210
+	   at ApexSQL.VSC.Core.Connections.Connect(ConnectionInfo connectionInfo) in E:\Agent\_work\173\s\Projects\ApexSQL.VSC.Common\Classes\Connections.cs:line 130
+
+2020-10-12 16:35:51.326 21291 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: OS version: Darwin 19.6.0 Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64
+2020-10-12 16:35:51.328 21291 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: Host application: Visual Studio Code(1.49.3)
+2020-10-12 16:35:51.329 21291 -1     INFO  [VSCPWRTOOLS: 2020.6.48.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.6.48.0
